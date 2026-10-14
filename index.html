@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dossier Comercial de Patrocinios | Networking con Propósito III (NCP3)</title>
+    <meta name="description" content="Propuesta oficial de patrocinio comercial para Networking con Propósito (NCP3). Exposición B2B directa ante tomadores de decisión corporativa en Lechería.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#061320',
+                            navyLight: '#0B2338',
+                            surface: '#0F2C46',
+                            blue: '#0E5D9E',
+                            cyan: '#00A3FF',
+                            orange: '#E5982A',
+                            orangeHover: '#F5A738',
+                            muted: '#94A3B8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Space Grotesk"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #061320;
+            color: #F8FAFC;
+            overflow-x: hidden;
+        }
+        .card-luxury {
+            background: linear-gradient(135deg, rgba(15, 44, 70, 0.65) 0%, rgba(11, 35, 56, 0.4) 100%);
+            border: 1px solid rgba(229, 152, 42, 0.25);
+            backdrop-filter: blur(12px);
+            transition: all 0.25s ease;
+        }
+        .card-luxury:hover {
+            border-color: rgba(229, 152, 42, 0.7);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px -10px rgba(229, 152, 42, 0.15);
+        }
+        .glow-sphere {
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(14, 93, 158, 0.2) 0%, rgba(6, 19, 32, 0) 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-orange selection:text-white">
+
+    <!-- Línea Superior de Acento Naranja -->
+    <div class="h-[2px] w-full bg-gradient-to-r from-transparent via-brand-orange to-transparent"></div>
+
+    <!-- ENCABEZADO / NAVEGACIÓN CORPORATIVA -->
+    <header class="sticky top-0 z-50 bg-[#061320]/90 backdrop-blur-md border-b border-brand-orange/20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+            <!-- Logos Intactos -->
+            <div class="flex items-center gap-3 sm:gap-5">
+                <a href="https://cacoinnatur.github.io/site/" target="_blank" rel="noopener noreferrer" title="Cámara de Comercio de Lechería">
+                    <img src="logo-ccl-r2.jpg" alt="Cámara de Comercio de Lechería" class="h-9 sm:h-11 w-auto object-contain bg-white rounded px-2 py-0.5">
+                </a>
+                <div class="h-6 w-[1px] bg-brand-orange/40"></div>
+                <a href="https://fedecamarasanz.github.io/fanz/" target="_blank" rel="noopener noreferrer" title="Fedecámaras Anzoátegui">
+                    <img src="logo-fedecamaras.png" alt="Fedecámaras Anzoátegui" class="h-8 sm:h-10 w-auto object-contain rounded">
+                </a>
+            </div>
+
+            <!-- Navegación & CTA Directo -->
+            <div class="flex items-center gap-4">
+                <nav class="hidden md:flex items-center gap-6 text-xs uppercase tracking-wider font-semibold text-slate-300">
+                    <a href="#modalidades" class="hover:text-brand-orange transition-colors">Modalidades</a>
+                    <a href="#comparativa" class="hover:text-brand-orange transition-colors">Matriz</a>
+                    <a href="#logistica" class="hover:text-brand-orange transition-colors">Condiciones</a>
+                </nav>
+                <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" 
+                   target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center justify-center px-4 py-2 text-xs sm:text-sm font-bold text-[#061320] bg-brand-orange hover:bg-brand-orangeHover rounded shadow transition-all hover:scale-[1.02]">
+                    Para patrocinios
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION: DOSSIER COMERCIAL -->
+    <section class="relative pt-12 pb-16 lg:pt-20 lg:pb-24 overflow-hidden">
+        <div class="glow-sphere top-0 left-1/4"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center">
+            <!-- Badge B2B -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-brand-orange/50 bg-brand-orange/10 text-brand-orange text-xs font-semibold uppercase tracking-wider mb-6">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-orange animate-ping"></span>
+                Convocatoria Comercial de Patrocinio • Edición Limitada (NCP3)
+            </div>
+
+            <!-- Título Principal -->
+            <h1 class="font-display text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                Posiciona tu marca ante los líderes y decisores de <span class="bg-gradient-to-r from-white via-slate-100 to-brand-cyan bg-clip-text text-transparent">Anzoátegui</span>
+            </h1>
+
+            <div class="h-[1px] w-28 bg-gradient-to-r from-transparent via-brand-orange to-transparent mx-auto my-5"></div>
+
+            <p class="text-base sm:text-lg text-slate-300 font-light max-w-2xl mx-auto leading-relaxed">
+                Exposición B2B directa, calificada y sin dispersión de audiencia. 100% directores de empresas, comerciantes, gerentes de operaciones y consultores en un entorno de vinculación comercial activa.
+            </p>
+
+            <!-- Métricas Clave de Patrocinio -->
+            <div class="mt-8 max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                <div class="p-3.5 rounded bg-brand-navyLight/70 border border-slate-700/60">
+                    <span class="text-[11px] uppercase text-brand-orange font-semibold tracking-wider block">Fecha</span>
+                    <span class="text-sm font-bold text-white mt-0.5 block">3 de Diciembre</span>
+                </div>
+                <div class="p-3.5 rounded bg-brand-navyLight/70 border border-slate-700/60">
+                    <span class="text-[11px] uppercase text-brand-orange font-semibold tracking-wider block">Lugar</span>
+                    <span class="text-sm font-bold text-white mt-0.5 block">Lokal, Lechería</span>
+                </div>
+                <div class="p-3.5 rounded bg-brand-navyLight/70 border border-slate-700/60">
+                    <span class="text-[11px] uppercase text-brand-orange font-semibold tracking-wider block">Perfil</span>
+                    <span class="text-sm font-bold text-white mt-0.5 block">100% C-Level / B2B</span>
+                </div>
+                <div class="p-3.5 rounded bg-brand-navyLight/70 border border-slate-700/60">
+                    <span class="text-[11px] uppercase text-brand-orange font-semibold tracking-wider block">Cupos Totales</span>
+                    <span class="text-sm font-bold text-brand-orange mt-0.5 block">18 Empresas</span>
+                </div>
+            </div>
+
+            <!-- Contador Regresivo -->
+            <div class="mt-8 max-w-md mx-auto bg-brand-navyLight/90 p-5 rounded-xl border border-brand-orange/30 shadow-xl">
+                <span class="text-[11px] font-semibold text-brand-orange uppercase tracking-wider block mb-3">
+                    Cierre de Postulaciones y Entrega de Material
+                </span>
+                <div class="grid grid-cols-4 gap-2 text-center">
+                    <div class="bg-brand-surface/70 rounded p-2 border border-slate-700/50">
+                        <span id="cd-days" class="font-display text-2xl sm:text-3xl font-bold text-white">00</span>
+                        <span class="block text-[10px] text-slate-400 uppercase tracking-widest mt-0.5">Días</span>
+                    </div>
+                    <div class="bg-brand-surface/70 rounded p-2 border border-slate-700/50">
+                        <span id="cd-hours" class="font-display text-2xl sm:text-3xl font-bold text-white">00</span>
+                        <span class="block text-[10px] text-slate-400 uppercase tracking-widest mt-0.5">Horas</span>
+                    </div>
+                    <div class="bg-brand-surface/70 rounded p-2 border border-slate-700/50">
+                        <span id="cd-minutes" class="font-display text-2xl sm:text-3xl font-bold text-white">00</span>
+                        <span class="block text-[10px] text-slate-400 uppercase tracking-widest mt-0.5">Min</span>
+                    </div>
+                    <div class="bg-brand-surface/70 rounded p-2 border border-slate-700/50">
+                        <span id="cd-seconds" class="font-display text-2xl sm:text-3xl font-bold text-brand-orange">00</span>
+                        <span class="block text-[10px] text-slate-400 uppercase tracking-widest mt-0.5">Seg</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Central -->
+            <div class="mt-8">
+                <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" 
+                   target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 px-8 py-4 bg-brand-orange hover:bg-brand-orangeHover text-[#061320] font-bold text-base rounded shadow-lg shadow-brand-orange/20 transition-all transform hover:-translate-y-0.5">
+                    <span>Para patrocinios</span>
+                    <span>&rarr;</span>
+                </a>
+                <p class="text-xs text-slate-400 mt-2">Atención directa con la coordinación comercial del evento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LÍNEA SEPARADORA -->
+    <div class="max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-brand-orange/40 to-transparent"></div>
+
+    <!-- NIVELES DE INVERSIÓN (STAND VS PENDÓN) -->
+    <section id="modalidades" class="py-16 max-w-5xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-brand-orange uppercase text-xs font-bold tracking-widest">Esquema de Participación</span>
+            <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mt-1">Niveles de Inversión y Beneficios</h2>
+            <div class="h-[1px] w-16 bg-brand-orange mx-auto my-3"></div>
+            <p class="text-slate-300 text-sm">Exhibición física estrictamente limitada a dos modalidades para garantizar exclusividad visual y libre circulación.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- NIVEL 1: STAND COMERCIAL -->
+            <div class="card-luxury rounded-2xl p-7 border-2 border-brand-orange/50 flex flex-col justify-between relative shadow-2xl">
+                <div class="absolute -top-3.5 right-6 bg-brand-orange text-[#061320] text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Solo 6 Cupos por Aforo
+                </div>
+                <div>
+                    <div class="flex items-baseline justify-between mb-2">
+                        <span class="text-xs uppercase font-bold text-brand-orange tracking-widest">Nivel 1</span>
+                        <div class="text-right">
+                            <span class="text-xs text-slate-400 uppercase mr-1">Inversión:</span>
+                            <span class="font-display text-3xl font-extrabold text-white">USD 220</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Patrocinador Corporativo (Stand Comercial)</h3>
+                    <p class="text-xs text-slate-300 mt-2 mb-6 leading-relaxed">
+                        Diseñado para marcas que requieren contacto comercial directo, demostración de producto o captación de leads en sitio.
+                    </p>
+
+                    <div class="h-[1px] w-full bg-slate-700/60 mb-5"></div>
+
+                    <ul class="space-y-3 text-xs sm:text-sm text-slate-300">
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Espacio físico:</strong> Área asignada para stand / mesa de exhibición comercial en la zona de mayor tránsito del evento.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Pantalla digital:</strong> Inclusión de logotipo y slide publicitario en el backing rotativo continuo proyectado en sala.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Pauta individual en RRSS:</strong> Publicación individual de presentación oficial en las cuentas de la Cámara de Comercio.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Cobertura en vivo:</strong> Menciones y etiquetas en historias de cobertura en tiempo real durante la jornada.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Material general:</strong> Logotipo incluido en flyers digitales oficiales de difusión.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-orange font-bold">&#10003;</span>
+                            <span><strong>Menciones protocolares:</strong> Reconocimiento de la marca por moderación al inicio y al cierre del evento.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-8 pt-5 border-t border-slate-700/60">
+                    <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" 
+                       target="_blank" rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-brand-orange hover:bg-brand-orangeHover text-[#061320] font-bold text-sm rounded shadow transition-all">
+                        <span>Para patrocinios</span>
+                        <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- NIVEL 2: PENDÓN INSTITUCIONAL -->
+            <div class="card-luxury rounded-2xl p-7 flex flex-col justify-between relative">
+                <div class="absolute -top-3.5 right-6 bg-slate-800 text-slate-300 border border-slate-600 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    12 Cupos Disponibles
+                </div>
+                <div>
+                    <div class="flex items-baseline justify-between mb-2">
+                        <span class="text-xs uppercase font-bold text-slate-400 tracking-widest">Nivel 2</span>
+                        <div class="text-right">
+                            <span class="text-xs text-slate-400 uppercase mr-1">Inversión:</span>
+                            <span class="font-display text-3xl font-extrabold text-white">USD 80</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Patrocinador de Marca (Pendón Institucional)</h3>
+                    <p class="text-xs text-slate-300 mt-2 mb-6 leading-relaxed">
+                        Diseñado para empresas que buscan posicionamiento de marca, recordación y asociación institucional con el gremio empresarial.
+                    </p>
+
+                    <div class="h-[1px] w-full bg-slate-700/60 mb-5"></div>
+
+                    <ul class="space-y-3 text-xs sm:text-sm text-slate-300">
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Espacio físico:</strong> Ubicación estratégica de 1 pendón roll-up en el perímetro del auditorio y área de networking.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Pantalla digital:</strong> Inclusión del logotipo en el backing rotativo proyectado durante todo el evento.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Redes sociales:</strong> Mención de marca agrupada como patrocinador en las plataformas de la Cámara de Comercio.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Cobertura en vivo:</strong> Mención y etiqueta en historias de cobertura durante la jornada.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Material general:</strong> Logotipo incluido en flyers oficiales de difusión.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="text-brand-cyan font-bold">&#10003;</span>
+                            <span><strong>Menciones protocolares:</strong> Agradecimiento institucional en el bloque de apertura.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-8 pt-5 border-t border-slate-700/60">
+                    <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" 
+                       target="_blank" rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-brand-surface hover:bg-slate-700 text-white font-bold text-sm rounded border border-slate-600 transition-all">
+                        <span>Para patrocinios</span>
+                        <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MATRIZ COMPARATIVA OFICIAL -->
+    <section id="comparativa" class="py-14 bg-brand-navyLight/40 border-y border-brand-orange/20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <span class="text-brand-orange uppercase text-xs font-bold tracking-widest">Resumen Comparativo</span>
+                <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mt-1">Matriz de Beneficios</h2>
+                <div class="h-[1px] w-16 bg-brand-orange mx-auto my-3"></div>
+            </div>
+
+            <!-- Tabla Resumen -->
+            <div class="overflow-x-auto rounded-xl border border-slate-700/60 shadow-xl">
+                <table class="w-full text-left text-xs sm:text-sm text-slate-300">
+                    <thead class="bg-brand-surface text-white text-[11px] sm:text-xs uppercase tracking-wider border-b border-brand-orange/30">
+                        <tr>
+                            <th scope="col" class="py-4 px-4 sm:px-6">Beneficio</th>
+                            <th scope="col" class="py-4 px-4 sm:px-6 text-brand-orange">Stand Comercial (USD 220)</th>
+                            <th scope="col" class="py-4 px-4 sm:px-6 text-brand-cyan">Pendón Institucional (USD 80)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800 bg-brand-navy/60">
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Espacio físico en sitio</td>
+                            <td class="py-3.5 px-4 sm:px-6">Stand / Mesa interactiva activa</td>
+                            <td class="py-3.5 px-4 sm:px-6">1 Pendón roll-up perimetral</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Presencia en pantalla (Backing)</td>
+                            <td class="py-3.5 px-4 sm:px-6 text-brand-orange font-semibold">Slide publicitario + Logo prioritario</td>
+                            <td class="py-3.5 px-4 sm:px-6">Logo institucional rotativo</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Pauta en redes sociales</td>
+                            <td class="py-3.5 px-4 sm:px-6 text-brand-orange font-semibold">Post individual exclusivo</td>
+                            <td class="py-3.5 px-4 sm:px-6">Pauta colectiva agrupada</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Historias de cobertura en vivo</td>
+                            <td class="py-3.5 px-4 sm:px-6">Sí (menciones y etiquetas)</td>
+                            <td class="py-3.5 px-4 sm:px-6">Sí (menciones y etiquetas)</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Logo en flyer general de difusión</td>
+                            <td class="py-3.5 px-4 sm:px-6">Sí</td>
+                            <td class="py-3.5 px-4 sm:px-6">Sí</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Mención por parte del moderador</td>
+                            <td class="py-3.5 px-4 sm:px-6 font-semibold text-white">Apertura y Cierre</td>
+                            <td class="py-3.5 px-4 sm:px-6">Apertura</td>
+                        </tr>
+                        <tr class="bg-brand-surface/40">
+                            <td class="py-3.5 px-4 sm:px-6 font-bold text-white">Cupos totales disponibles</td>
+                            <td class="py-3.5 px-4 sm:px-6 font-bold text-brand-orange">6 empresas</td>
+                            <td class="py-3.5 px-4 sm:px-6 font-bold text-brand-cyan">12 empresas</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONDICIONES COMERCIALES Y LOGÍSTICA -->
+    <section id="logistica" class="py-16 max-w-4xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-10">
+            <span class="text-brand-orange uppercase text-xs font-bold tracking-widest">Protocolo Operativo</span>
+            <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mt-1">Condiciones Comerciales y Logística</h2>
+            <div class="h-[1px] w-16 bg-brand-orange mx-auto my-3"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="p-6 rounded-xl bg-brand-navyLight/70 border-l-4 border-brand-orange">
+                <span class="text-xs uppercase font-bold text-brand-orange tracking-wider block mb-2">01. Material Físico y Montaje</span>
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    El montaje del stand o entrega del pendón roll-up debe completarse a las <strong>4:30 p.m.</strong> del día del evento (exactamente una hora antes de la apertura oficial de puertas).
+                </p>
+            </div>
+            <div class="p-6 rounded-xl bg-brand-navyLight/70 border-l-4 border-brand-blue">
+                <span class="text-xs uppercase font-bold text-brand-cyan tracking-wider block mb-2">02. Material Audiovisual y Digital</span>
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    Los artes publicitarios, logotipos vectoriales (SVG, AI o PNG de alta resolución) y piezas para el backing rotativo deben consignarse con <strong>5 días hábiles</strong> de anticipación al evento.
+                </p>
+            </div>
+        </div>
+
+        <!-- Botón de Contacto Directo -->
+        <div class="mt-12 text-center">
+            <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" 
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-8 py-4 bg-brand-orange hover:bg-brand-orangeHover text-[#061320] font-bold text-base rounded shadow-lg transition-all transform hover:scale-[1.02]">
+                <span>Para patrocinios</span>
+                <span>&rarr;</span>
+            </a>
+            <p class="text-xs text-slate-400 mt-2">Contacto vía WhatsApp con la Dirección Comercial de la Cámara de Comercio.</p>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA INSTITUCIONAL -->
+    <footer class="bg-[#040D17] border-t border-brand-orange/30 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
+                <!-- Logos Intactos -->
+                <div class="flex items-center gap-4">
+                    <img src="logo-ccl-r2.jpg" alt="Cámara de Comercio de Lechería" class="h-9 w-auto object-contain bg-white rounded px-2 py-0.5">
+                    <div class="h-6 w-[1px] bg-brand-orange/40"></div>
+                    <img src="logo-fedecamaras.png" alt="Fedecámaras Anzoátegui" class="h-8 w-auto object-contain rounded">
+                </div>
+
+                <!-- Enlaces Oficiales -->
+                <div class="flex flex-wrap items-center justify-center gap-5 text-xs text-slate-300 font-medium">
+                    <a href="https://cacoinnatur.github.io/site/" target="_blank" rel="noopener noreferrer" class="hover:text-brand-orange transition-colors">Web CCL</a>
+                    <a href="https://fedecamarasanz.github.io/fanz/" target="_blank" rel="noopener noreferrer" class="hover:text-brand-orange transition-colors">Web FANZ</a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-brand-orange transition-colors">Instagram CCL</a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-brand-orange transition-colors">Instagram FANZ</a>
+                    <a href="https://wa.me/584224042020?text=Saludos%2C%20estoy%20interesado%20en%20patrocinar%20el%20evento%20Networking%20con%20Prop%C3%B3sito%20(Tercera%20Edici%C3%B3n)" target="_blank" rel="noopener noreferrer" class="text-brand-orange hover:underline font-semibold">Para patrocinios</a>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+                <p>&copy; 2026 Cámara de Comercio de Lechería & Fedecámaras Anzoátegui. Dossier Comercial.</p>
+                <p class="text-slate-400">Networking con Propósito — 3 de Diciembre</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONTADOR JS (3 DE DICIEMBRE, 5:30 PM) -->
+    <script>
+        const targetDate = new Date('2026-12-03T17:30:00');
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate.getTime() - now;
+
+            if (distance < 0) {
+                document.getElementById('cd-days').innerText = "00";
+                document.getElementById('cd-hours').innerText = "00";
+                document.getElementById('cd-minutes').innerText = "00";
+                document.getElementById('cd-seconds').innerText = "00";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('cd-days').innerText = String(days).padStart(2, '0');
+            document.getElementById('cd-hours').innerText = String(hours).padStart(2, '0');
+            document.getElementById('cd-minutes').innerText = String(minutes).padStart(2, '0');
+            document.getElementById('cd-seconds').innerText = String(seconds).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
